@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+venv/
+.venv/
+
+# C++ Build Artifacts
+*.o
+*.gch
+Cell2Fire/cell2fire/Cell2FireC/Cell2Fire
+
+# Simulation Results
+Cell2Fire/results/
+Cell2Fire/outputs/
+
+# Logs
+logs/
+*.log
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+.dockerignore
+docker-compose.yml
+Dockerfile
