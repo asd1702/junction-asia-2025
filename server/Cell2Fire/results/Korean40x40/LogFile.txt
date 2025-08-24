@@ -1,0 +1,29 @@
+------ Command line values ------
+InFolder: ../data/Korean40x40/ 
+OutFolder: ../results/Korean40x40 
+WeatherOpt: rows 
+HarvestPlan:  
+OutMessages: 1 
+Ignitions: 1 
+OutputGrids: 1 
+FinalGrid: 1 
+TotalYears: 1 
+TotalSims: 1 
+NWeatherFiles: 1 
+FirePeriodLength: 1.0 
+IgnitionRadius: 5 
+ROSThreshold: 0.1 
+HFIThreshold: 0.1 
+ROS-CV: 0.0 
+seed: 123 
+Forest DataFrame from instance ../data/Korean40x40/Data.csv
+Number of cells: 1600
+
+Weather DataFrame from instance ../data/Korean40x40/Weather.csv
+
+Selected ignition point for Year 1, sim 1: 1167
+----------------------------- Results -----------------------------
+Total Available Cells:    862 - % of the Forest: 53.875%
+Total Burnt Cells:        350 - % of the Forest: 21.875%
+Total Non-Burnable Cells: 388 - % of the Forest: 24.25%
+Total Harvested Cells: 0 - % of the Forest: 0%
